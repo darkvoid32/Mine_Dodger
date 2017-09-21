@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundlightblue"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <ImageButton
+                    android:id="@+id/animeGame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:onClick="onClick"
+                    android:alpha="0.8"
+                    android:src="@drawable/back1"
+                    android:tileMode="disabled"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/animeGame"
+                    android:layout_alignLeft="@+id/animeGame"
+                    android:layout_alignRight="@+id/animeGame"
+                    android:layout_alignTop="@+id/animeGame"
+                    android:gravity="center"
+                    android:text="Act 1"
+                    android:textColor="#000000"
+                    android:textSize="32dp"
+                    android:fontFamily="serif"
+                    android:textStyle="italic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <ImageButton
+                    android:id="@+id/Animal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:onClick="onClick"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/back2"
+                    android:tileMode="disabled" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/Animal"
+                    android:layout_alignLeft="@+id/Animal"
+                    android:layout_alignRight="@+id/Animal"
+                    android:layout_alignTop="@+id/Animal"
+                    android:gravity="center"
+                    android:text="Act 2"
+                    android:textColor="#000000"
+                    android:textSize="32dp"
+                    android:fontFamily="serif"
+                    android:textStyle="italic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <ImageButton
+                    android:id="@+id/Null"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/back3"
+                    android:onClick="onClick"
+                    android:textSize="32dp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="serif"
+                    android:tileMode="disabled" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/Null"
+                    android:layout_alignLeft="@+id/Null"
+                    android:layout_alignRight="@+id/Null"
+                    android:layout_alignTop="@+id/Null"
+                    android:gravity="center"
+                    android:text="Act 3"
+                    android:fontFamily="serif"
+                    android:textColor="#000000"
+                    android:textSize="32dp"
+                    android:textStyle="italic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <ImageButton
+                    android:id="@+id/nill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/back4"
+                    android:background="@android:color/transparent"
+                    android:onClick="onClick"
+                    android:tileMode="disabled" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/nill"
+                    android:layout_alignLeft="@+id/nill"
+                    android:layout_alignRight="@+id/nill"
+                    android:layout_alignTop="@+id/nill"
+                    android:gravity="center"
+                    android:text="Endless"
+                    android:textColor="#000000"
+                    android:textSize="32dp"
+                    android:fontFamily="serif"
+                    android:textStyle="italic" />
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:text="Back"
+                android:textSize="30dp"
+                android:fontFamily="serif"
+                android:onClick="onClick"
+                android:id="@+id/bckButton"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

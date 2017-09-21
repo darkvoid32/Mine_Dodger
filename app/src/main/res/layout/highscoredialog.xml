@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:fontFamily="serif"
+            android:text="Enter Your Name"
+            android:id="@+id/hScoreName"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="7.0dip"
+            android:paddingRight="7.0dip"
+            android:paddingTop="7.0dip"
+            android:fontFamily="serif"
+            android:textColor="#000000"
+            android:id="@+id/name"
+            android:textSize="25.0dip" />
+
+
+        <Button
+            android:id="@+id/nameButton"
+            android:layout_width="60.0dip"
+            android:layout_height="55dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35.0dip"
+            android:text="OK"
+            android:background="@android:color/transparent"
+            android:fontFamily="serif"
+            android:textSize="15.0dip"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

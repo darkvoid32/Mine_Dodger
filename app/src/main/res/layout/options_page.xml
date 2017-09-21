@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundlightblue">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/mySwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sound: "
+                android:textSize="30dp"
+                android:fontFamily="serif"
+                android:background="@android:color/transparent"/>
+                <!--android:switchMinWidth="56dp"
+                android:thumb="@drawable/thumb"
+                android:track="@drawable/track"-->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:text="Credits"
+            android:fontFamily="cursive"
+            android:id="@+id/creditButton"
+            android:onClick="onClick"
+            android:textAllCaps="false"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:text="Back"
+            android:id="@+id/backButton"
+            android:onClick="onClick"
+            android:fontFamily="serif"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+</LinearLayout>
